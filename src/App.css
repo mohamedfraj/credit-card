@@ -1,47 +1,68 @@
-.App{
-background-image:url(https://image.shutterstock.com/image-vector/abstract-mash-line-point-scales-260nw-662423623.jpg);
-background-size:cover;
-width: 500px;
-border: none;
-border-radius: 20px;
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%)
+.App {
+    background-image: url(https://image.shutterstock.com/image-vector/abstract-mash-line-point-scales-260nw-662423623.jpg);
+    background-size: cover;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.credit{
-  padding-top: 10px; 
-  margin-left:50%;
-  color: white;
-
+.card-inputs {
+    width: 50px
 }
 
-.puce{
-  width: 75px;
-  height: 60px;
-  margin-left:30px; 
+.credit {
+    padding-top: 10px;
+    margin-left: 50%;
+    color: white;
 }
 
-.number{
- font-size: 30px;
- color: yellow ;
-}
-.n2{
-  color: white;
-
-}
-.carholder{
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
+.puce {
+    width: 75px;
+    height: 60px;
+    margin-left: 30px;
 }
 
-.master-card{
-  width: 100px;
-  padding-top: 50px;
+.number {
+    font-size: 30px;
+    color: yellow;
 }
 
-.numbercarholder{
-  display: flex;
-  justify-content: space-around;
+.n2 {
+    color: white;
+}
+
+.carholder {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.master-card {
+    width: 100px;
+    padding-top: 50px;
+}
+
+.numbercarholder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 72%;
+    top: 40%;
+    transform: translate(-30%, -30%);
+}
+
+.input {
+    width: auto;
+    margin: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
 }
